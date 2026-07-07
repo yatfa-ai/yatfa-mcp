@@ -13,7 +13,7 @@ export async function initializeTools(): Promise<void> {
     tools.length = 0;
     tools.push(...loadedTools);
 
-    console.log(`Loaded ${tools.length} tools from Rails API`);
+    console.error(`Loaded ${tools.length} tools from Rails API`);
 }
 
 // Export a generic tool executor that routes all tool calls through Rails

@@ -1,6 +1,6 @@
 {
   "name": "yatfa-mcp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "dist/index.js",
   "bin": {
     "yatfa-mcp": "dist/index.js"
